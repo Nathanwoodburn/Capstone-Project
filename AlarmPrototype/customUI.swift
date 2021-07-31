@@ -8,6 +8,18 @@
 import Foundation
 import UIKit
 
+//class customTabBar: UITabBar {
+//    
+//    override class func appearance() -> Self {
+//        var tabAppearance = super.appearance()
+//        tabAppearance.backgroundImage = UIImage()
+//        tabAppearance.shadowImage = UIImage()
+//        tabAppearance.tintColor = .green
+//        return tabAppearance as! Self
+//    }
+//}
+
+
 @IBDesignable extension UIButton {
 
     @IBInspectable var borderWidth: CGFloat {

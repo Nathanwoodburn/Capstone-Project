@@ -9,16 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tabBar: UITabBar!
     
-    @IBOutlet weak var editButton: UIButton!
-    
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            navigationController?.popToRootViewController(animated: true)
+        }
+    }
 
 }
 

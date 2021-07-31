@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E09B7C526B3EB4000C83549 /* customButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09B7C426B3EB4000C83549 /* customButtons.swift */; };
+		7E09B7C526B3EB4000C83549 /* customUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09B7C426B3EB4000C83549 /* customUI.swift */; };
+		7E7A480026B548930099AC4D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A47FF26B548930099AC4D /* TableViewController.swift */; };
 		7ECB787D26B28B3D0075D326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB787C26B28B3D0075D326 /* AppDelegate.swift */; };
 		7ECB787F26B28B3D0075D326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */; };
 		7ECB788126B28B3D0075D326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB788026B28B3D0075D326 /* ViewController.swift */; };
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E09B7C426B3EB4000C83549 /* customButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButtons.swift; sourceTree = "<group>"; };
+		7E09B7C426B3EB4000C83549 /* customUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUI.swift; sourceTree = "<group>"; };
+		7E7A47FF26B548930099AC4D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7ECB787926B28B3D0075D326 /* AlarmPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB787C26B28B3D0075D326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +106,8 @@
 				7ECB787C26B28B3D0075D326 /* AppDelegate.swift */,
 				7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */,
 				7ECB788026B28B3D0075D326 /* ViewController.swift */,
-				7E09B7C426B3EB4000C83549 /* customButtons.swift */,
+				7E7A47FF26B548930099AC4D /* TableViewController.swift */,
+				7E09B7C426B3EB4000C83549 /* customUI.swift */,
 				7ECB788226B28B3D0075D326 /* Main.storyboard */,
 				7ECB788526B28B410075D326 /* Assets.xcassets */,
 				7ECB788726B28B410075D326 /* LaunchScreen.storyboard */,
@@ -261,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E09B7C526B3EB4000C83549 /* customButtons.swift in Sources */,
+				7E09B7C526B3EB4000C83549 /* customUI.swift in Sources */,
 				7ECB788126B28B3D0075D326 /* ViewController.swift in Sources */,
 				7ECB787D26B28B3D0075D326 /* AppDelegate.swift in Sources */,
+				7E7A480026B548930099AC4D /* TableViewController.swift in Sources */,
 				7ECB787F26B28B3D0075D326 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
