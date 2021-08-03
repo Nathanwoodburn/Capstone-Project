@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		7E09B7C526B3EB4000C83549 /* customUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09B7C426B3EB4000C83549 /* customUI.swift */; };
 		7E7A480026B548930099AC4D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A47FF26B548930099AC4D /* TableViewController.swift */; };
+		7E7A480826B906B50099AC4D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A480726B906B50099AC4D /* CameraViewController.swift */; };
 		7ECB787D26B28B3D0075D326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB787C26B28B3D0075D326 /* AppDelegate.swift */; };
 		7ECB787F26B28B3D0075D326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */; };
-		7ECB788126B28B3D0075D326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB788026B28B3D0075D326 /* ViewController.swift */; };
+		7ECB788126B28B3D0075D326 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB788026B28B3D0075D326 /* AlarmViewController.swift */; };
 		7ECB788426B28B3D0075D326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB788226B28B3D0075D326 /* Main.storyboard */; };
 		7ECB788626B28B410075D326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB788526B28B410075D326 /* Assets.xcassets */; };
 		7ECB788926B28B410075D326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB788726B28B410075D326 /* LaunchScreen.storyboard */; };
@@ -39,10 +40,11 @@
 /* Begin PBXFileReference section */
 		7E09B7C426B3EB4000C83549 /* customUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUI.swift; sourceTree = "<group>"; };
 		7E7A47FF26B548930099AC4D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7E7A480726B906B50099AC4D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		7ECB787926B28B3D0075D326 /* AlarmPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB787C26B28B3D0075D326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7ECB788026B28B3D0075D326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ECB788026B28B3D0075D326 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		7ECB788326B28B3D0075D326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ECB788526B28B410075D326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECB788826B28B410075D326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,10 +107,11 @@
 			children = (
 				7ECB787C26B28B3D0075D326 /* AppDelegate.swift */,
 				7ECB787E26B28B3D0075D326 /* SceneDelegate.swift */,
-				7ECB788026B28B3D0075D326 /* ViewController.swift */,
+				7ECB788026B28B3D0075D326 /* AlarmViewController.swift */,
 				7E7A47FF26B548930099AC4D /* TableViewController.swift */,
 				7E09B7C426B3EB4000C83549 /* customUI.swift */,
 				7ECB788226B28B3D0075D326 /* Main.storyboard */,
+				7E7A480726B906B50099AC4D /* CameraViewController.swift */,
 				7ECB788526B28B410075D326 /* Assets.xcassets */,
 				7ECB788726B28B410075D326 /* LaunchScreen.storyboard */,
 				7ECB788A26B28B410075D326 /* Info.plist */,
@@ -265,10 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E09B7C526B3EB4000C83549 /* customUI.swift in Sources */,
-				7ECB788126B28B3D0075D326 /* ViewController.swift in Sources */,
+				7ECB788126B28B3D0075D326 /* AlarmViewController.swift in Sources */,
 				7ECB787D26B28B3D0075D326 /* AppDelegate.swift in Sources */,
 				7E7A480026B548930099AC4D /* TableViewController.swift in Sources */,
 				7ECB787F26B28B3D0075D326 /* SceneDelegate.swift in Sources */,
+				7E7A480826B906B50099AC4D /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

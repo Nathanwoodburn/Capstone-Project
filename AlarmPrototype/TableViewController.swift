@@ -9,8 +9,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    var prototypes = ["", "1Alarm"]
-    var viewControllers = [String]()
+    var prototypes = ["", "1Alarm", "QRScan"]
+    var viewControllers = [AlarmViewController.self, CameraViewController.self]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: prototypes[indexPath.row]) as? ViewController {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: prototypes[indexPath.row]) {
             navigationController?.pushViewController(vc, animated: true)
         }
     }

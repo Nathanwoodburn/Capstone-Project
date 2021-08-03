@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AlarmViewController: UIViewController {
 
     @IBOutlet weak var tabBar: UITabBar!
     @IBOutlet weak var clockItem: UITabBarItem!
@@ -17,9 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     
-    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
             navigationController?.popToRootViewController(animated: true)
         }
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
         tabBar.frame.size.height = 60
         tabBar.frame.origin.y = view.frame.height - 60
         
+
     }
 }
 
