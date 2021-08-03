@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tabBar: UITabBar!
+    @IBOutlet weak var clockItem: UITabBarItem!
     
  
     
@@ -24,5 +25,12 @@ class ViewController: UIViewController {
         }
     }
 
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        tabBar.frame.size.height = 60
+        tabBar.frame.origin.y = view.frame.height - 60
+        
+    }
 }
 

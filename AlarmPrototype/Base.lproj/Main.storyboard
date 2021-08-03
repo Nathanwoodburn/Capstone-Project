@@ -107,6 +107,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="clockItem" destination="WAu-YG-Jzb" id="kqw-Z5-B11"/>
                         <outlet property="tabBar" destination="teU-kV-rk8" id="6Ym-HC-nIY"/>
                     </connections>
                 </viewController>
